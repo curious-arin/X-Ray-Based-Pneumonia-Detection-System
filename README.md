@@ -2,7 +2,7 @@
 
 ## 🙂 Overview
 
-This project uses **Deep Learning Approach along with PyTorch** to classify chest X-ray images into two categories: **NORMAL** and **PNEUMONIA**. A custom Convolutional Neural Network (CNN) learns image features to predict the corresponding class.
+This project uses **Deep Learning Approach along with PyTorch** to classify chest X-ray images into two categories: **NORMAL** and **PNEUMONIA**.
 
 The objective is to demonstrate an end-to-end computer vision workflow, from image preprocessing and class imbalance handling to model training, evaluation, and saving trained weights.
 
@@ -13,8 +13,6 @@ The objective is to demonstrate an end-to-end computer vision workflow, from ima
 Chest X-ray analysis is an important part of pneumonia assessment. This project explores how deep learning can classify chest X-ray images and assist research into automated medical image analysis.
 
 **Goal:** Develop and evaluate a CNN-based binary image classification model that separates normal chest X-rays from images labeled as pneumonia.
-
-**Project value:** Demonstrates practical skills in image preprocessing, deep learning, class imbalance handling, model evaluation, and computer vision.
 
 -----
 
@@ -85,10 +83,6 @@ The model achieved the following results on the test dataset:
 | Test Accuracy | **94.31%** |
 | Test Loss | **0.1380** |
 
-Test accuracy measures the proportion of correctly classified test images, while test loss measures the model's classification error according to its loss function.
-
-These results reflect performance on the test dataset used in this project. Accuracy alone does not indicates how effectively pneumonia cases are detected.
-
 -----
 
 ## 🛠️ Tech Stack
@@ -102,17 +96,6 @@ These results reflect performance on the test dataset used in this project. Accu
 - **Scikit-learn** — Machine learning utilities
 - **Pillow (PIL)** — Image processing
 - **Jupyter Notebook** — Experimentation 
-
------
-
-## 🎯 Key Project Highlights
-
-- Built a CNN-based binary image classifier using PyTorch.
-- Implemented image resizing, tensor conversion, normalization, and data augmentation.
-- Addressed class imbalance through class-weighted loss.
-- Monitored training and validation performance.
-- Achieved **94.31% test accuracy** and **0.1380 test loss**.
-- Saved trained model weights for future streamlit deployment.
 
 -----
 
