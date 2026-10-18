@@ -22,10 +22,10 @@ Chest X-ray analysis is an important part of pneumonia assessment. This project 
 X-Ray-Pneumonia-Detection/
 │
 ├── model/
-│   └── xray_classifier.pth     # Saved model weights
+│   └── xray_classifier.pth     
 │
 ├── notebook    
-│   └── Notebook.ipynb          # Data preparation, training and evaluation
+│   └── Notebook.ipynb         
 │
 ├── .gitignore
 ├── app.py
@@ -87,15 +87,14 @@ The model achieved the following results on the test dataset:
 
 ## 🛠️ Tech Stack
 
-- **Python** — Programming language
-- **PyTorch** — CNN development and model training
-- **Torchvision** — Image transformation utilities
-- **NumPy** — Numerical operations
-- **Pandas** — Data handling
-- **Matplotlib** — visualization
-- **Scikit-learn** — Machine learning utilities
-- **Pillow (PIL)** — Image processing
-- **Jupyter Notebook** — Experimentation 
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
 
 -----
 
