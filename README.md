@@ -5,7 +5,7 @@
 This project uses **Deep Learning Approach along with PyTorch** to classify chest X-ray images into two categories: **NORMAL** and **PNEUMONIA**.
 
 The objective is to demonstrate an end-to-end computer vision workflow, from image preprocessing and class imbalance handling to model training, evaluation, and saving trained weights.
- 
+   
 -----
 
 ## 💡 Problem Statement & Objective
